@@ -21,6 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    cursor: pointer;
 }
 .card{
 
@@ -69,9 +70,10 @@ background-color: rgb(29, 207, 109);
         #game {
             display: grid;
             grid-template-columns: repeat(1fr, 1fr);
-           
+            cursor: pointer;
         }
         .card{
+          
          width: auto;
         }    
            
@@ -82,10 +84,11 @@ background-color: rgb(29, 207, 109);
         #game {
             display: grid;
             grid-template-columns: repeat(1fr, 1fr);
-           
+            cursor: pointer;
         }
         .card{
          width: auto;
+  
         }    
            
         
@@ -96,9 +99,10 @@ background-color: rgb(29, 207, 109);
         #game {
             display: grid;
             grid-template-columns: repeat(1fr, 1fr);
-           
+            cursor: pointer;
         }
         .card{
+  
          width: auto;
         }    
            
