@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #652ebf;
+    color: #fff;
+    font-family: 'Trebuchet MS', Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#game{
+   display: flex;
+}
+
+.genre-column{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card{
+
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border: solid yellow 5px;
+    background-color: #4545bf;
+    text-align: center;
+    padding: 5px;
+    font-size: 100px;
+    margin: 10px;
+   
+   
+   justify-content: unsafe;
+
+}
+.correct-answer{
+background-color: rgb(29, 207, 109);
+
+}
+
+.Incorrect-answer{
+    background-color: rgb(236, 24, 24);
+    
+    }
+   
+    .turButten{
+        
+        background-color: chartreuse;
+        width: 5em;
+        border-radius: 7px;
+        margin-left: 0.5em;
+    }
+    .FalaseButten{
+        background-color: rgba(196, 41, 14, 0.713);
+        width: 5em;
+       
+     
+        border-radius: 7px;
+        margin-left: 0.5em;
+    }
+  
+    @media  (max-width: 414px) {
+
+        #game {
+            display: grid;
+            grid-template-columns: repeat(1fr, 1fr);
+           
+        }
+        .card{
+         width: auto;
+        }    
+           
+        
+    }
+    @media  (max-width: 376px) {
+
+        #game {
+            display: grid;
+            grid-template-columns: repeat(1fr, 1fr);
+           
+        }
+        .card{
+         width: auto;
+        }    
+           
+        
+    }
+
+    @media  (max-width: 500px) {
+
+        #game {
+            display: grid;
+            grid-template-columns: repeat(1fr, 1fr);
+           
+        }
+        .card{
+         width: auto;
+        }    
+           
+     
+    }
