@@ -64,43 +64,4 @@ background-color: rgb(29, 207, 109);
         margin-left: 0.5em;
     }
   
-    @media  screen and (max-width: 414px) {
-
-        #game {
-            display: grid;
-            grid-template-columns: repeat(1fr, 1fr);
-           
-        }
-        .card{
-         width: auto;
-        }    
-           
-        
-    }
-    @media  screen and (max-width: 376px) {
-
-        #game {
-            display: grid;
-            grid-template-columns: repeat(1fr, 1fr);
-           
-        }
-        .card{
-         width: auto;
-        }    
-           
-        
-    }
-
-    @media  (max-width: 500px) {
-
-        #game {
-            display: grid;
-            grid-template-columns: repeat(1fr, 1fr);
-           
-        }
-        .card{
-         width: auto;
-        }    
-           
-     
-    }
+   
